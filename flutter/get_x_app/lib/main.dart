@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:get_x_app/fetch_api/game_screen.dart';
 import 'package:get_x_app/to_do_app/pages/to_do_screen.dart';
 
 void main() {
@@ -13,7 +14,8 @@ class MyApp extends StatelessWidget {
     return const MaterialApp(
       debugShowCheckedModeBanner: false,
       home: Scaffold(
-        body: ToDoScreen(),
+        // body: ToDoScreen(),
+        body: GameScreen(),
       )
     );
   }
